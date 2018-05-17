@@ -1,4 +1,4 @@
-# rgates
+# rgate
 Logic gates gem for ruby
 
 Includes AND, OR, NOT, NAND, NOR, XOR, XNOR.
