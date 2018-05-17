@@ -45,7 +45,7 @@ To use any logic gate in your script, follow this format. (Except NOT)
 <the name chosen at the top of the script>.<the logic gate you wish to use in lowercase>(<first boolean operator>, <second boolean operator>)
 
 ### Example usage
-```require 'rgate'```
-```rg = Rgate.new```
-```rg.and((3 == 3), (4 == 21))```
+```require 'rgate'```   
+```rg = Rgate.new```   
+```rg.and((3 == 3), (4 == 21))```  
 ```=> false```
