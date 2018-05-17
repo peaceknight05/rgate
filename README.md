@@ -5,7 +5,7 @@ Includes AND, OR, NOT, NAND, NOR, XOR, XNOR.
 
 ## Installation
 
-Type ```$ gem install rgates``` in your command line or terminal.
+Type ```$ gem install rgate``` in your command line or terminal.
 
 ## Usage
 Unlike most operators that go by a x.operator(y) or x operator y principle, (e.g. 2 + 3 or 2.+(3)) the logic gates will use a operator(x, y) principle to make it similar to actual logic gates in circuitry. **NOTE** _this may change in the future_
