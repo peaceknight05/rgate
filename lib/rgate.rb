@@ -1,4 +1,4 @@
-class Rgates
+class Rgate
   	def and(one, two)
 		if one == true && two == true
 			return true
