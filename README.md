@@ -35,3 +35,17 @@ return true if a or b are true
 
 ### XNOR
 return true if a and b are both false or true
+
+## Usage in scripts
+First, install the gem with ```gem install rgate```. (Ensure that you are in the root directory of your computer. If you are not sure, type in ```cd```)
+Secondly, type in ```require 'rgate'``` at the top of your script.
+Thirdly, type in ```<name of your choice> = Rgate.new```
+**Done!** now you can use logic gates in your ruby script!
+To use any logic gate in your script, follow this format. (Except NOT)
+<the name chosen at the top of the script>.<the logic gate you wish to use in lowercase>(<first boolean operator>, <second boolean operator>)
+
+### Example usage
+```require 'rgate'```
+```rg = Rgate.new```
+```rg.and((3 == 3), (4 == 21))```
+```=> false```
